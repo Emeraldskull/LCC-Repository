@@ -1,13 +1,61 @@
-<!doctype html>              
+<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-<meta charset="utf-8">
-<title>my index page</title>
+    <title>web demo landing page</title>
+    
+    <!-- style is how you add internal css rules to your html -->
+    <style>
+        html {
+            background-color: #ffebcd;
+            color: #444;
+        }
+
+        body {
+            max: 60vw;
+            max-width: 800px;
+            margin: auto;
+            margin-top: 2rem;
+            padding: 1rem;
+            background: none;
+        }
+
+        a {
+            color: #444;
+        }
+    </style>
 </head>
-                
+
 <body>
-<p>hello world.</p>
+    <!-- headline text -->
+    <h1>Owen's web demo landing page</h1> 
+
+    <!-- introduction text -->
+    <p>For LCC Digital Media and design Web Assignments</p>
+
+        
+    <!-- 
+    structure of a link:
+    <a> is an anchor and tells the browser to go somewhere
+    href="filename" tells the browser where to go
+    target="_blank" tells the browser to open it in a new blank tab
+    <a>the visual element that becomes the link</a>
+
+    notes: 
+    * make sure the file is in the same folder as index.html and the filename is written correctly. 
+
+    * no spaces are allowed in file names so use dashes instead: file-name.html
+    -->
+
+
+    <!-- bullet list with items that include a link to a new page -->
+    <ul>
+        <li><strong><a href="assignment-text.html" target="_blank">text.html</a></strong> -
+            HTML TEXT ASSIGNMENT APRIL 27, 2020</li>
+    </ul>
+
+
 </body>
 
 </html>
