@@ -6,8 +6,17 @@
     <title>images demo page</title>
     
     <style>
-        img {border-radius: 50%;
+        background-image: linear-gradient(to left, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+        img {margain 60px
+            
+        }
+        #one {border-radius: 50%;
             box-shadow: 42px 10px 30px; }
+        #two { background-color:#59114D;
+            width: 200px;
+            height: 200px;}
+        #three { border-radius-top: 54%;
+            filter: saturate();
            h1 {
   background-color:#040926 ;
                color:#F6E8EA ;
@@ -32,13 +41,13 @@ p {
     <p>a demo for adding images in html and manipulating them with css. there will be three versions of the same image tweaked in different ways. there will also be either a tiled background image or a background gradient.</p>
 
     <!-- basic image tag including where to find the file and alternative text -->
-    <img src="mood.jpg" alt="girl with silly face">
+    <img src="mood.jpg" alt="girl with silly face"id="one">
 
-    <img src="mood.jpg" alt="girl with silly face">
+    <img src="mood.jpg" alt="girl with silly face"id="two">
 
     <!-- addition of a figure tag that adds caption. preferred method for accessibility. slightly different default formatting -->
     <figure>
-        <img src="mood.jpg" alt="girl with silly face">
+        <img src="mood.jpg" alt="girl with silly face"id="three">
         <figcaption>girl with silly face</figcaption>
       </figure>
     
