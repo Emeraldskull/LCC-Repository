@@ -5,7 +5,15 @@
   <title>boxes demo page</title>
 
   <style>
-   
+   html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
     body {
       color: #14080E;
       background-color: #E8E5E7;
