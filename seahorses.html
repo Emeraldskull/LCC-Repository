@@ -32,16 +32,28 @@ html {
       padding: 2rem;
       color: #F49D37
 }
-    header{
+    header{ #headline
 	    float: left;
 	    color:#7FB800 ;
+	    display:flex;
+	    justify-content:center;
+	    flex-direction:column;
+	    height:100;
+	    
     
     
     }
     
     header h1{ color: #F22B29;}
-    #seahorse {width: 50%; height: 400px; background: #666; float:right;
 	  
+	  
+    #seahorse {width: 100%; height: 100%; background: #666; float:right; object-fit:cover; object-position:left;
+	  
+	  }
+	  Figure{
+		width: 50%; height: 400px; margin: auto;  
+		  
+		  
 	  }
     
     main{
@@ -89,8 +101,12 @@ nav a {
 
 <body>
   <header class="clearfix">
+	  <div id=headline>
     <h1>Seahorses Are Wonderful</h1>
+		  </div>
+	<figure>	  
     <img id=seahorse src="seahorse.png" alt="seahorses are fun" />
+		</figure>
   </header>
 
   <main class="clearfix">
