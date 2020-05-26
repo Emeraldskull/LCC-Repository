@@ -1,0 +1,31 @@
+ 
+<head>
+
+<style>
+ html {           
+            background-attachment: fixed;
+            background-size: cover;         
+            line-height: 1.4rem;
+            font-size: 16px;
+            background-color: #59114D;
+            color: #E98A15;
+        }
+
+        body {
+           width: 60vw;
+            max-width: 800px;
+            margin: auto;
+            margin-top: 2rem;
+            padding: 3rem;
+            border-radius: 2rem;
+            background-color: #9C528B66;
+        }
+
+
+
+</style>
+</head>
+<body>
+<h1>mini</h1>
+<p>Mini</p>
+</body>
