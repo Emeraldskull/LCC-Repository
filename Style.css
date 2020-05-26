@@ -20,12 +20,14 @@
             border-radius: 2rem;
             background-color: #9C528B66;
         }
-
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+background-color: #FF2C55;
+}
 
 
 </style>
 </head>
-<body>
-<h1>mini</h1>
-<p>Mini</p>
-</body>
+
